@@ -19,7 +19,7 @@ section { position: relative; }
 
 
 /* ---------- Negative Space Utility Classes  ------------------ */ 
-
+/* maximum width of that sections - at sørge for at indholdet altid er en pæn størrelse på forskellige devices */
 .capped-width-wide      { max-width: 1600px; margin: auto; }
 .capped-width           { max-width: 1200px; margin: auto; }
 .capped-width-narrow    { max-width: 1000px; margin: auto; }
@@ -219,6 +219,7 @@ p a {
 
 p a:hover { 
   color: var(--featured-text); 
+  *
 }
 
 .button { 
